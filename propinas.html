@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora de Propinas Online Gratis</title>
+
+    <meta name="description" content="Calcula cuánto dejar de propina y cuál será el total de tu cuenta con nuestra calculadora de propinas online gratis.">
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <button class="modo-oscuro" onclick="cambiarModo()">🌙</button>
+
+    <main>
+
+        <a href="../index.html" class="volver">
+            ← Volver a calculadoras
+        </a>
+
+        <section class="pagina-calculadora">
+
+            <h1>Calculadora de propinas</h1>
+
+            <p class="descripcion">
+                Calcula cuánto dejar de propina y cuánto pagarás en total.
+            </p>
+
+            <div class="calculadora-grande">
+
+                <input
+                    type="number"
+                    id="cuenta"
+                    placeholder="Cuenta (€)"
+                >
+
+                <input
+                    type="number"
+                    id="propina"
+                    placeholder="Propina (%)"
+                >
+
+                <button onclick="calcularPropina()">
+                    Calcular propina
+                </button>
+
+                <h2 id="resultadoPropina"></h2>
+
+            </div>
+
+        </section>
+
+        <section class="informacion">
+
+    <h2>¿Cómo se calcula una propina?</h2>
+
+    <p>
+        Para calcular una propina, primero se determina qué porcentaje
+        de la cuenta se quiere dejar. Después se suma esa cantidad al
+        importe original para obtener el total que se pagará.
+    </p>
+
+    <div class="ejemplo">
+        Propina = (cuenta × porcentaje) ÷ 100
+    </div>
+
+    <h2>Ejemplo de cálculo</h2>
+
+    <p>
+        Imagina que una cuenta es de 50 € y quieres dejar un 10% de
+        propina. Primero calculamos cuánto representa ese porcentaje:
+    </p>
+
+    <div class="ejemplo">
+        50 × 10 ÷ 100 = 5 €
+    </div>
+
+    <p>
+        La propina sería de 5 €. Para obtener el total, la sumamos
+        a la cuenta:
+    </p>
+
+    <div class="ejemplo">
+        50 € + 5 € = 55 €
+    </div>
+
+    <p>
+        Por lo tanto, pagarías <strong>55 €</strong> en total.
+    </p>
+
+    <h2>¿Para qué sirve una calculadora de propinas?</h2>
+
+    <p>
+        Una calculadora de propinas permite calcular rápidamente cuánto
+        dejar según el porcentaje que elijas y conocer el importe total
+        de la cuenta. Puede resultar especialmente útil cuando quieres
+        hacer el cálculo mentalmente sin perder tiempo.
+    </p>
+
+    <h2>Preguntas frecuentes</h2>
+
+    <h3>¿Qué porcentaje de propina puedo calcular?</h3>
+
+    <p>
+        Puedes introducir el porcentaje que quieras en la calculadora.
+        El resultado dependerá del importe de la cuenta y del porcentaje
+        indicado.
+    </p>
+
+    <h3>¿Cuánto es un 10% de propina sobre 50 €?</h3>
+
+    <p>
+        El 10% de 50 € son 5 €. Por lo tanto, si sumamos la propina,
+        el total sería de 55 €.
+    </p>
+
+    <h3>¿La calculadora de propinas es gratuita?</h3>
+
+    <p>
+        Sí. Puedes utilizar esta calculadora de propinas gratis desde
+        cualquier dispositivo con conexión a Internet.
+    </p>
+
+    <h2>Aprende más sobre las propinas</h2>
+
+    <p>
+        Si quieres aprender a calcular una propina paso a paso,
+        puedes consultar nuestra
+        <a href="../como-calcular-una-propina.html">
+            guía para calcular propinas
+        </a>.
+    </p>
+
+    <p>
+        También puedes visitar nuestra
+        <a href="../guias.html">
+            sección de guías y consejos
+        </a>
+        para encontrar más explicaciones y ejemplos.
+    </p>
+
+</section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Calculadoras Online</p>
+    </footer>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

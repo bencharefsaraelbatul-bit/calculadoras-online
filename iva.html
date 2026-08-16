@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora de IVA Online Gratis</title>
+
+    <meta name="description" content="Calcula el IVA y el precio final de cualquier producto de forma rápida y sencilla con nuestra calculadora de IVA online gratis.">
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <button class="modo-oscuro" onclick="cambiarModo()">🌙</button>
+
+    <main>
+
+        <a href="../index.html" class="volver">
+            ← Volver a calculadoras
+        </a>
+
+        <section class="pagina-calculadora">
+
+            <h1>Calculadora de IVA</h1>
+
+            <p class="descripcion">
+                Calcula cuánto IVA pagarás y cuál será el precio final.
+            </p>
+
+            <div class="calculadora-grande">
+
+                <input
+                    type="number"
+                    id="precioIVA"
+                    placeholder="Precio (€)"
+                >
+
+                <input
+                    type="number"
+                    id="porcentajeIVA"
+                    placeholder="IVA (%)"
+                >
+
+                <button onclick="calcularIVA()">
+                    Calcular IVA
+                </button>
+
+                <h2 id="resultadoIVA"></h2>
+
+            </div>
+
+        </section>
+
+        <section class="informacion">
+
+    <h2>¿Qué es el IVA?</h2>
+
+    <p>
+        El IVA, o Impuesto sobre el Valor Añadido, es un impuesto que
+        se aplica al consumo de determinados bienes y servicios.
+        El porcentaje de IVA puede variar dependiendo del producto
+        o servicio.
+    </p>
+
+    <h2>¿Cómo se calcula el IVA?</h2>
+
+    <p>
+        Para calcular cuánto IVA corresponde a un precio, multiplica
+        el precio por el porcentaje de IVA y divide el resultado entre
+        100. Después, suma el IVA obtenido al precio original para
+        conocer el precio final.
+    </p>
+
+    <div class="ejemplo">
+        IVA = (precio × porcentaje de IVA) ÷ 100
+    </div>
+
+    <h2>Ejemplo de cálculo</h2>
+
+    <p>
+        Si un producto cuesta 100 € y aplicamos un IVA del 21%,
+        primero calculamos el importe del impuesto:
+    </p>
+
+    <div class="ejemplo">
+        100 × 21 ÷ 100 = 21 €
+    </div>
+
+    <p>
+        Después sumamos los 21 € de IVA al precio original:
+    </p>
+
+    <div class="ejemplo">
+        100 € + 21 € = 121 €
+    </div>
+
+    <p>
+        Por lo tanto, el IVA es de <strong>21 €</strong> y el precio
+        final es de <strong>121 €</strong>.
+    </p>
+
+    <h2>¿Para qué sirve calcular el IVA?</h2>
+
+    <p>
+        Calcular el IVA puede ser útil para conocer el precio final
+        de un producto o servicio, saber cuánto representa el impuesto
+        dentro de una compra o comprobar un cálculo realizado
+        anteriormente.
+    </p>
+
+    <h2>Preguntas frecuentes</h2>
+
+    <h3>¿Qué porcentaje de IVA debo utilizar?</h3>
+
+    <p>
+        Depende del producto o servicio y de la normativa que se
+        aplique. Introduce en la calculadora el porcentaje que
+        corresponda al caso que estés calculando.
+    </p>
+
+    <h3>¿Cuánto es el 21% de IVA sobre 100 €?</h3>
+
+    <p>
+        El 21% de 100 € son 21 €. Si se añade al precio original,
+        el resultado es un precio final de 121 €.
+    </p>
+
+    <h3>¿La calculadora de IVA es gratuita?</h3>
+
+    <p>
+        Sí. Puedes utilizar esta calculadora de IVA gratis desde
+        cualquier dispositivo con conexión a Internet.
+    </p>
+
+    <h2>Aprende más sobre el IVA</h2>
+
+    <p>
+        Si quieres aprender a calcular el IVA paso a paso, puedes
+        consultar nuestra
+        <a href="../como-calcular-el-iva.html">
+            guía para calcular el IVA
+        </a>.
+    </p>
+
+    <p>
+        También puedes visitar nuestra
+        <a href="../guias.html">
+            sección de guías y consejos
+        </a>
+        para encontrar más explicaciones y ejemplos.
+    </p>
+
+</section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Calculadoras Online</p>
+    </footer>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

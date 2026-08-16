@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora de Edad Online Gratis</title>
+
+    <meta name="description" content="Calcula tu edad exacta de forma rápida y sencilla con nuestra calculadora de edad online gratis.">
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <button class="modo-oscuro" onclick="cambiarModo()">🌙</button>
+
+    <main>
+
+        <a href="../index.html" class="volver">
+            ← Volver a calculadoras
+        </a>
+
+        <section class="pagina-calculadora">
+
+            <h1>Calculadora de edad</h1>
+
+            <p class="descripcion">
+                Introduce tu fecha de nacimiento y descubre cuántos años tienes.
+            </p>
+
+            <div class="calculadora-grande">
+
+                <input
+                    type="date"
+                    id="fechaNacimiento"
+                >
+
+                <button onclick="calcularEdad()">
+                    Calcular mi edad
+                </button>
+
+                <h2 id="resultadoEdad"></h2>
+
+            </div>
+
+        </section>
+
+        <section class="informacion">
+
+    <h2>¿Cómo funciona la calculadora de edad?</h2>
+
+    <p>
+        Para calcular tu edad, introduce tu fecha de nacimiento.
+        La calculadora compara esa fecha con la fecha actual y determina
+        cuántos años tienes.
+    </p>
+
+    <h2>¿Cómo se calcula la edad?</h2>
+
+    <p>
+        La edad se obtiene calculando el tiempo que ha pasado desde la
+        fecha de nacimiento hasta la fecha actual. Para obtener un
+        resultado correcto, también se tienen en cuenta el mes y el día
+        de nacimiento.
+    </p>
+
+    <h2>Ejemplo</h2>
+
+    <p>
+        Si una persona nació el 15 de marzo de 2010 y ya ha pasado su
+        cumpleaños de este año, tendrá 16 años. Si todavía no ha llegado
+        el 15 de marzo, tendrá 15 años.
+    </p>
+
+    <div class="ejemplo">
+        Fecha de nacimiento → Fecha actual → Edad
+    </div>
+
+    <h2>¿Para qué sirve una calculadora de edad?</h2>
+
+    <p>
+        Una calculadora de edad puede ser útil para conocer rápidamente
+        la edad de una persona, comprobar cuántos años han pasado desde
+        una fecha determinada o calcular la edad sin tener que hacer las
+        cuentas manualmente.
+    </p>
+
+    <h2>Preguntas frecuentes</h2>
+
+    <h3>¿La calculadora calcula mi edad automáticamente?</h3>
+
+    <p>
+        Sí. Solo tienes que introducir tu fecha de nacimiento y pulsar
+        el botón para obtener el resultado.
+    </p>
+
+    <h3>¿La calculadora de edad es gratuita?</h3>
+
+    <p>
+        Sí. Puedes utilizar esta calculadora de edad gratis desde
+        cualquier dispositivo con conexión a Internet.
+    </p>
+
+    <h3>¿Necesito registrarme para utilizarla?</h3>
+
+    <p>
+        No. Puedes utilizar la calculadora directamente desde la página
+        sin crear una cuenta.
+    </p>
+
+    <h2>Aprende más sobre cómo calcular la edad</h2>
+
+    <p>
+        Si quieres conocer con más detalle cómo se calcula la edad,
+        puedes consultar nuestra
+        <a href="../como-calcular-la-edad.html">
+            guía para calcular la edad
+        </a>.
+    </p>
+
+    <p>
+        También puedes visitar nuestra
+        <a href="../guias.html">
+            sección de guías y consejos
+        </a>
+        para encontrar más explicaciones y ejemplos.
+    </p>
+
+</section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Calculadoras Online</p>
+    </footer>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

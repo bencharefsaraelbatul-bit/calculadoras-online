@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora de Descuentos Online Gratis</title>
+
+    <meta name="description" content="Calcula descuentos fácilmente y descubre el precio final de cualquier producto con nuestra calculadora online gratis.">
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <button class="modo-oscuro" onclick="cambiarModo()">🌙</button>
+
+    <main>
+
+        <a href="../index.html" class="volver">
+            ← Volver a calculadoras
+        </a>
+
+        <section class="pagina-calculadora">
+
+            <h1>Calculadora de descuentos</h1>
+
+            <p class="descripcion">
+                Calcula cuánto ahorrarás y cuál será el precio final después de aplicar un descuento.
+            </p>
+
+            <div class="calculadora-grande">
+
+                <input
+                    type="number"
+                    id="precio"
+                    placeholder="Precio (€)"
+                >
+
+                <input
+                    type="number"
+                    id="descuento"
+                    placeholder="Descuento (%)"
+                >
+
+                <button onclick="calcularDescuento()">
+                    Calcular descuento
+                </button>
+
+                <h2 id="resultadoDescuento"></h2>
+
+            </div>
+
+        </section>
+
+        <section class="informacion">
+
+    <h2>¿Cómo se calcula un descuento?</h2>
+
+    <p>
+        Un descuento reduce el precio original de un producto o servicio
+        en un determinado porcentaje. Para calcularlo, primero obtenemos
+        cuánto dinero representa el descuento y después lo restamos del
+        precio original.
+    </p>
+
+    <div class="ejemplo">
+        Descuento = (precio × porcentaje) ÷ 100
+    </div>
+
+    <h2>Ejemplo de descuento</h2>
+
+    <p>
+        Imagina que un producto cuesta 100 € y tiene un descuento del 20%.
+        Primero calculamos cuánto dinero nos ahorramos:
+    </p>
+
+    <div class="ejemplo">
+        100 × 20 ÷ 100 = 20 €
+    </div>
+
+    <p>
+        El descuento es de 20 €. Por lo tanto, restamos esa cantidad
+        al precio original:
+    </p>
+
+    <div class="ejemplo">
+        100 € − 20 € = 80 €
+    </div>
+
+    <p>
+        Por lo tanto, el precio final del producto es de
+        <strong>80 €</strong>.
+    </p>
+
+    <h2>¿Dónde se utilizan los descuentos?</h2>
+
+    <p>
+        Los descuentos son habituales en tiendas, supermercados,
+        compras por Internet y promociones especiales. Saber calcularlos
+        permite conocer rápidamente cuánto vas a ahorrar y cuánto tendrás
+        que pagar finalmente.
+    </p>
+
+    <h2>Preguntas frecuentes</h2>
+
+    <h3>¿Cuánto es un 10% de descuento sobre 50 €?</h3>
+
+    <p>
+        El 10% de 50 € son 5 €, por lo que el precio final sería
+        45 €.
+    </p>
+
+    <h3>¿Cuánto se ahorra con un 25% de descuento?</h3>
+
+    <p>
+        Depende del precio original. Por ejemplo, con un precio de 200 €,
+        un descuento del 25% supone un ahorro de 50 € y un precio final
+        de 150 €.
+    </p>
+
+    <h3>¿La calculadora de descuentos es gratuita?</h3>
+
+    <p>
+        Sí. Puedes utilizar esta calculadora de descuentos gratis desde
+        cualquier dispositivo con conexión a Internet.
+    </p>
+
+    <h2>Aprende más sobre descuentos</h2>
+
+    <p>
+        Si quieres aprender a calcular descuentos paso a paso,
+        puedes consultar nuestra
+        <a href="../como-calcular-un-descuento.html">
+            guía para calcular descuentos
+        </a>.
+    </p>
+
+    <p>
+        También puedes visitar nuestra
+        <a href="../guias.html">
+            sección de guías y consejos
+        </a>
+        para encontrar más explicaciones y ejemplos.
+    </p>
+
+</section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Calculadoras Online</p>
+    </footer>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>
