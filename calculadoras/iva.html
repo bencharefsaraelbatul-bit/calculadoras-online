@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora de IVA Online Gratis</title>
+
+    <meta name="description" content="Calcula el IVA y el precio final de cualquier producto de forma rápida y sencilla con nuestra calculadora de IVA online gratis.">
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <button class="modo-oscuro" onclick="cambiarModo()">🌙</button>
+
+    <main>
+
+        <a href="../index.html" class="volver">
+            ← Volver a calculadoras
+        </a>
+
+        <section class="pagina-calculadora">
+
+            <h1>Calculadora de IVA</h1>
+
+            <p class="descripcion">
+                Calcula cuánto IVA pagarás y cuál será el precio final.
+            </p>
+
+            <div class="calculadora-grande">
+
+                <input
+                    type="number"
+                    id="precioIVA"
+                    placeholder="Precio (€)"
+                >
+
+                <input
+                    type="number"
+                    id="porcentajeIVA"
+                    placeholder="IVA (%)"
+                >
+
+                <button onclick="calcularIVA()">
+                    Calcular IVA
+                </button>
+
+                <h2 id="resultadoIVA"></h2>
+
+            </div>
+
+        </section>
+
+        <section class="informacion">
+
+            <h2>¿Cómo se calcula el IVA?</h2>
+
+            <p>
+                Introduce el precio del producto y el porcentaje de IVA.
+                La calculadora calculará cuánto dinero corresponde al IVA
+                y lo sumará al precio original.
+            </p>
+
+            <h2>Ejemplo</h2>
+
+            <p>
+                Si un producto cuesta 100 € y aplicamos un IVA del 21%,
+                el IVA será de 21 € y el precio final será de 121 €.
+            </p>
+
+            <h2>¿La calculadora es gratis?</h2>
+
+            <p>
+                Sí. Puedes utilizar esta calculadora de IVA gratis.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Calculadoras Online</p>
+    </footer>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

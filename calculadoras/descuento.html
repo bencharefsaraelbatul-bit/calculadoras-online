@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora de Descuentos Online Gratis</title>
+
+    <meta name="description" content="Calcula descuentos fácilmente y descubre el precio final de cualquier producto con nuestra calculadora online gratis.">
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <button class="modo-oscuro" onclick="cambiarModo()">🌙</button>
+
+    <main>
+
+        <a href="../index.html" class="volver">
+            ← Volver a calculadoras
+        </a>
+
+        <section class="pagina-calculadora">
+
+            <h1>Calculadora de descuentos</h1>
+
+            <p class="descripcion">
+                Calcula cuánto ahorrarás y cuál será el precio final después de aplicar un descuento.
+            </p>
+
+            <div class="calculadora-grande">
+
+                <input
+                    type="number"
+                    id="precio"
+                    placeholder="Precio (€)"
+                >
+
+                <input
+                    type="number"
+                    id="descuento"
+                    placeholder="Descuento (%)"
+                >
+
+                <button onclick="calcularDescuento()">
+                    Calcular descuento
+                </button>
+
+                <h2 id="resultadoDescuento"></h2>
+
+            </div>
+
+        </section>
+
+        <section class="informacion">
+
+            <h2>¿Cómo se calcula un descuento?</h2>
+
+            <p>
+                Para calcular un descuento, primero se calcula cuánto dinero
+                representa el porcentaje de descuento y después se resta
+                esa cantidad del precio original.
+            </p>
+
+            <h2>Ejemplo</h2>
+
+            <p>
+                Si un producto cuesta 100 € y tiene un descuento del 20%,
+                ahorrarás 20 € y pagarás 80 €.
+            </p>
+
+            <h2>¿La calculadora es gratis?</h2>
+
+            <p>
+                Sí. Puedes utilizar esta calculadora de descuentos gratis.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Calculadoras Online</p>
+    </footer>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

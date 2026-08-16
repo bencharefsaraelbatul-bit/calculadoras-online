@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora de Porcentajes Online Gratis</title>
+
+    <meta name="description" content="Calcula porcentajes de forma rápida y sencilla con nuestra calculadora de porcentajes online gratis.">
+
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+    <button class="modo-oscuro" onclick="cambiarModo()">🌙</button>
+
+    <main>
+
+        <a href="../index.html" class="volver">
+            ← Volver a calculadoras
+        </a>
+
+        <section class="pagina-calculadora">
+
+            <h1>Calculadora de porcentajes</h1>
+
+            <p class="descripcion">
+                Calcula fácilmente cualquier porcentaje de un número.
+            </p>
+
+            <div class="calculadora-grande">
+
+                <input
+                    type="number"
+                    id="numero"
+                    placeholder="Número"
+                >
+
+                <input
+                    type="number"
+                    id="porcentaje"
+                    placeholder="Porcentaje (%)"
+                >
+
+                <button onclick="calcularPorcentaje()">
+                    Calcular porcentaje
+                </button>
+
+                <h2 id="resultado"></h2>
+
+            </div>
+
+        </section>
+
+        <section class="informacion">
+
+            <h2>¿Cómo calcular un porcentaje?</h2>
+
+            <p>
+                Para calcular un porcentaje, multiplica el número por el porcentaje
+                y divide el resultado entre 100.
+            </p>
+
+            <p>
+                Por ejemplo, el 20% de 150 es:
+            </p>
+
+            <div class="ejemplo">
+                150 × 20 ÷ 100 = 30
+            </div>
+
+            <h2>Preguntas frecuentes</h2>
+
+            <h3>¿Cuánto es el 10% de 100?</h3>
+
+            <p>
+                El 10% de 100 es 10.
+            </p>
+
+            <h3>¿La calculadora es gratuita?</h3>
+
+            <p>
+                Sí. Puedes utilizarla gratis desde cualquier dispositivo.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Calculadoras Online</p>
+    </footer>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora de Edad Online Gratis</title>
+
+    <meta name="description" content="Calcula tu edad exacta de forma rápida y sencilla con nuestra calculadora de edad online gratis.">
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <button class="modo-oscuro" onclick="cambiarModo()">🌙</button>
+
+    <main>
+
+        <a href="../index.html" class="volver">
+            ← Volver a calculadoras
+        </a>
+
+        <section class="pagina-calculadora">
+
+            <h1>Calculadora de edad</h1>
+
+            <p class="descripcion">
+                Introduce tu fecha de nacimiento y descubre cuántos años tienes.
+            </p>
+
+            <div class="calculadora-grande">
+
+                <input
+                    type="date"
+                    id="fechaNacimiento"
+                >
+
+                <button onclick="calcularEdad()">
+                    Calcular mi edad
+                </button>
+
+                <h2 id="resultadoEdad"></h2>
+
+            </div>
+
+        </section>
+
+        <section class="informacion">
+
+            <h2>¿Cómo funciona la calculadora de edad?</h2>
+
+            <p>
+                Introduce tu fecha de nacimiento y la calculadora
+                comparará esa fecha con la fecha actual para calcular
+                tu edad.
+            </p>
+
+            <h2>¿Es gratis?</h2>
+
+            <p>
+                Sí. Puedes utilizar esta calculadora de edad gratis.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Calculadoras Online</p>
+    </footer>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

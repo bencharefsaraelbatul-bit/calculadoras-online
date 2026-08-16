@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora de Regla de Tres Online Gratis</title>
+
+    <meta name="description" content="Resuelve reglas de tres de forma rápida y sencilla con nuestra calculadora online gratis.">
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <button class="modo-oscuro" onclick="cambiarModo()">🌙</button>
+
+    <main>
+
+        <a href="../index.html" class="volver">
+            ← Volver a calculadoras
+        </a>
+
+        <section class="pagina-calculadora">
+
+            <h1>Calculadora de regla de tres</h1>
+
+            <p class="descripcion">
+                Calcula fácilmente el valor desconocido de una regla de tres.
+            </p>
+
+            <div class="calculadora-grande">
+
+                <input
+                    type="number"
+                    id="valorA"
+                    placeholder="Valor A"
+                >
+
+                <input
+                    type="number"
+                    id="valorB"
+                    placeholder="Valor B"
+                >
+
+                <input
+                    type="number"
+                    id="valorC"
+                    placeholder="Valor C"
+                >
+
+                <button onclick="calcularReglaTres()">
+                    Calcular
+                </button>
+
+                <h2 id="resultadoReglaTres"></h2>
+
+            </div>
+
+        </section>
+
+        <section class="informacion">
+
+            <h2>¿Cómo funciona una regla de tres?</h2>
+
+            <p>
+                Una regla de tres permite calcular un valor desconocido
+                cuando conocemos otros tres valores relacionados.
+            </p>
+
+            <h2>Ejemplo</h2>
+
+            <p>
+                Si 3 productos cuestan 15 €, ¿cuánto cuestan 7 productos?
+            </p>
+
+            <p>
+                3 → 15<br>
+                7 → X
+            </p>
+
+            <div class="ejemplo">
+                X = (15 × 7) ÷ 3 = 35 €
+            </div>
+
+            <h2>¿La calculadora es gratis?</h2>
+
+            <p>
+                Sí. Puedes utilizar esta calculadora de regla de tres gratis.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Calculadoras Online</p>
+    </footer>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

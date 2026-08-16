@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadoras Online Gratis</title>
+    <meta name="description" content="Calculadoras online gratuitas, rápidas y fáciles de usar.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<button class="modo-oscuro" onclick="cambiarModo()">
+    🌙
+</button>
+    <header>
+        <h1>Calculadoras Online</h1>
+        <p>Calcula lo que necesites de forma rápida y gratis.</p>
+    </header>
+
+    <main>
+
+        <div class="buscador">
+    <input
+        type="text"
+        id="busqueda"
+        placeholder="¿Qué quieres calcular?"
+        onkeyup="buscarCalculadora()"
+    >
+
+    <button onclick="buscarCalculadora()">Buscar</button>
+  </div>
+
+        <section class="calculadoras">
+
+          <div class="tarjeta" data-nombre="porcentaje">
+    <h2>Calculadora de porcentaje</h2>
+    <p>Calcula cuánto es un porcentaje de una cantidad.</p>
+
+   <button onclick="window.location.href='calculadoras/porcentaje.html'">
+    Probar calculadora
+</button>
+</div>
+
+            <div class="tarjeta" data-nombre="edad">
+<h2>Calculadora de edad</h2>
+    
+    <p>Descubre exactamente cuántos años tienes.</p>
+
+    <button onclick="window.location.href='calculadoras/edad.html'">
+    Probar calculadora
+</button>
+</div>
+
+            <div class="tarjeta" data-nombre="descuento">
+    <h2>Calculadora de descuento</h2>
+
+    <p>Calcula cuánto pagarás después de aplicar un descuento.</p>
+
+    <button onclick="window.location.href='calculadoras/descuento.html'">
+    Probar calculadora
+</button>
+
+</div>
+
+<div class="tarjeta" data-nombre="iva">
+    <h2>Calculadora de IVA</h2>
+
+    <p>Calcula el IVA y el precio final de un producto.</p>
+
+   <button onclick="window.location.href='calculadoras/iva.html'">
+    Probar calculadora
+</button>
+</div>
+     <div class="tarjeta" data-nombre="regla de tres">
+    <h2>Calculadora de regla de tres</h2>
+
+    <p>Calcula un valor desconocido fácilmente.</p>
+
+    <button onclick="window.location.href='calculadoras/regladetres.html'">
+    Probar calculadora
+</button>
+</div>
+      <div class="tarjeta" data-nombre="propina">
+    <h2>Calculadora de propinas</h2>
+
+    <p>Calcula cuánto dejar de propina y el total de la cuenta.</p>
+
+    <button onclick="window.location.href='calculadoras/propinas.html'">
+    Probar calculadora
+</button>
+    
+
+  </div>    
+        </section>
+
+    </main>
+
+
+
+
+   <footer>
+    <p>© 2026 Calculadoras Online</p>
+
+    <div class="enlaces-footer">
+        <a href="index.html">Inicio</a>
+        <a href="index.html">Calculadoras</a>
+        <a href="guias.html">Guías</a>	
+        <a href="sobre-nosotros.html">Sobre nosotros</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="politica-privacidad.html">Política de privacidad</a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
