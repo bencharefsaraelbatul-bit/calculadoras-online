@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bencharefsaraelbatul-bit.github.io/calculadoras-online/sitemap.xml
